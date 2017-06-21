@@ -15,7 +15,7 @@ app.get('/',function(req, res){
 // Run on a local port. env= enviroment. PORT opens up a spicfic port number
 // What ever PORT or 3000
 	http.listen(process.env.PORT || 3000, function(){
-        console.log('listening on *:3000');
+        console.log('listening of port 3000');
 
 
 });
