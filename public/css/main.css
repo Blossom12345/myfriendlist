@@ -12,11 +12,12 @@ h4, p{
 	left: 100px;
 	border-color: white;
 }
-#add-friend{
+/*#add-friend{
 	background-color: darkgreen;
 	width: 10%; 
 	height: 50%;
-}
+	color: white;
+}*/
 .header{
 	position: relative;
 	width: 50%;
@@ -40,7 +41,7 @@ p{
 }
 div {
     cursor:pointer;
-}
+
 
 
 
