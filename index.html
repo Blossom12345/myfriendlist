@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ajax Tutorial</title>
+	<!-- the link and script tags need to here at the top of the document -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<!-- ajax docum -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- postman -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> 
+
+
+     
+
+
+
+</head>
+<body>
+<!-- <style>
+    <img src="./img/together.jpg"">
+</style>
+ --><div class="header">
+    <h1><strong>Best Friends List</strong></h1>
+	</div>
+	
+	<!-- this id of friends links to ajax var friends  -->
+	<ul id="friends"> 
+    <!-- this is a name input fild on the web -->
+    <!-- this is a link to the ajax var name -->
+    <p>Name: <input type="text" id="name"></p>
+    <!-- this is a input fild on the web to add age -->
+    <!-- this is a link to thre ajax var age -->
+    <p>Age: <input type="text" id="age"></p>
+    <!-- this is the add button on web-->
+    <button id="add-friend">Add!</button>
+    </ul>
+
+    <!--js files at the bottom of the document-->
+    <!-- This script connects the html to the ajax file -->
+   <script src="js/ajax.js"></script>
+   <!-- this script has the url of the data we want to get back -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+</body>
+</html>

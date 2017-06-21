@@ -1,0 +1,46 @@
+body{
+	background-image:url("../img/body.jpg");
+	background-repeat: no-repeat;
+	margin: 0;
+    font-family: 'Indie Flower', cursive;
+
+}
+h4, p{
+	font-size: 30px;
+	background-color: darkgreen;
+	width: 135px;
+	left: 100px;
+	border-color: white;
+}
+#add-friend{
+	background-color: darkgreen;
+	width: 10%; 
+	height: 50%;
+}
+.header{
+	position: relative;
+	width: 50%;
+	height: 30%;
+	background-color: darkgreen;
+	border-radius: 30%;
+	left: 35%;
+
+}
+h1{
+	position: relative;
+	left: 33%;
+	color: white;
+
+}
+
+p{
+	color: white;
+	
+
+}
+div {
+    cursor:pointer;
+}
+
+
+
