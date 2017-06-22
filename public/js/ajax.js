@@ -10,7 +10,7 @@ var friendTemplate = " " +
     "<li>" +
     "<p><strong>Name:</strong> {{name}}</p>" +
     "<p><strong>Age:</strong> {{age}}</p>" +
-    "<button id='{{id}}' class='remove'style='background-color: green; border-radius: 10%; width: 50px; height: 30px; padding: 10px'>Delete</button>" +
+    "<button id='{{id}}' class='remove'style='background-color: green; border-radius: 10%; width: 50px; height: 30px; padding: 10px; color: white;'>Delete</button>" +
     "</li>"+
     "</div>" ;
     function addFriend(friend){
