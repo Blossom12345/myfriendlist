@@ -5,19 +5,23 @@ body{
     font-family: 'Indie Flower', cursive;
 
 }
-h4, p{
+ p{
 	font-size: 30px;
 	background-color: darkgreen;
 	width: 135px;
 	left: 100px;
 	border-color: white;
+	padding-right: 15px;
+	color: white;
+	border-radius: 10%;
 }
-/*#add-friend{
+#add-friend{
 	background-color: darkgreen;
 	width: 10%; 
 	height: 50%;
 	color: white;
-}*/
+
+}
 .header{
 	position: relative;
 	width: 50%;
@@ -32,11 +36,9 @@ h1{
 	left: 33%;
 	color: white;
 
+
 }
 
-p{
-	color: white;
-	
 
 }
 div {
